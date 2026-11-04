@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "faker-orgchart"
+version = "0.1.0"
+description = "Faker provider for org charts: job levels, leadership titles, and who reports to whom."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Steve Walker" }]
+requires-python = ">=3.10"
+dependencies = ["faker>=20"]
+keywords = ["faker", "fake data", "org chart", "test data", "provider"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Testing",
+  "Topic :: Utilities",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/faker_orgchart"]
+
+[tool.ruff]
+line-length = 120
