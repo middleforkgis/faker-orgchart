@@ -19,6 +19,10 @@ classifiers = [
   "Topic :: Utilities",
 ]
 
+[project.urls]
+Homepage = "https://github.com/middleforkgis/faker-orgchart"
+Issues = "https://github.com/middleforkgis/faker-orgchart/issues"
+
 [project.optional-dependencies]
 test = ["pytest"]
 

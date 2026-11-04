@@ -58,3 +58,9 @@ pytest
 ## License
 
 MIT, like Faker.
+
+## Releasing
+
+Bump `version` in `pyproject.toml`, then tag and push the tag (`git tag v0.1.1 && git push
+origin v0.1.1`). The `publish` workflow tests, builds and publishes to PyPI through
+Trusted Publishing, so no token is stored.
