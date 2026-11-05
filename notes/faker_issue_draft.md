@@ -1,10 +1,10 @@
-# Draft: issue for joke2k/faker (not posted)
+# Issue for joke2k/faker: posted as #2520
 
-Status: draft, 2026-11-04. Post only with the author's go-ahead, from their own GitHub
-account. Faker's CONTRIBUTING asks AI-assisted reports to say so, which the last section does.
-
-Before posting, check again that nothing like this has been proposed: search the issues
-for "seniority", "job level" and "org chart" (none found on 2026-11-04).
+Status: posted 2026-11-04 as https://github.com/joke2k/faker/issues/2520, with corrections: Ruby Faker has a
+`job.seniority` locale list used inside `Job.title`, not a `Job.seniority` method; the link was filled in;
+and the closing paragraph Faker's CONTRIBUTING asks of AI-assisted reports was added. The text below is the
+original draft. No duplicates were found before posting (searched "seniority", "job level",
+"org chart", "job_seniority").
 
 ---
 
